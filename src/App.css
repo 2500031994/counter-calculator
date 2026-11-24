@@ -1,0 +1,16 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: Arial, sans-serif; background: #eef2f7; color: #17233b; }
+header, footer { background: #17365d; color: white; text-align: center; padding: 24px; }
+header h1 { margin: 0; }
+header p { margin-bottom: 0; }
+main { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 320px), 1fr)); gap: 24px; max-width: 950px; margin: 40px auto; padding: 0 20px; }
+section { background: white; padding: 28px; border-radius: 12px; box-shadow: 0 4px 16px #17365d18; }
+h2 { margin-top: 0; }
+.count { display: block; font-size: 64px; text-align: center; margin: 35px 0; }
+.buttons { display: flex; flex-wrap: wrap; gap: 10px; }
+button { flex: 1; background: #2458a6; color: white; border: 0; border-radius: 6px; padding: 12px; font-size: 16px; cursor: pointer; }
+button:hover { background: #17365d; }
+button.reset { background: #596579; }
+label { display: block; margin-bottom: 16px; }
+input { display: block; width: 100%; margin-top: 6px; padding: 12px; border: 1px solid #b6c3d5; border-radius: 6px; font-size: 16px; }
+.result { background: #eef2f7; padding: 16px; border-radius: 6px; overflow-wrap: anywhere; }
